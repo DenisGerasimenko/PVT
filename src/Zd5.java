@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Zd5 {
     public static void main(String[] args) {
@@ -20,5 +20,6 @@ public class Zd5 {
         } else if (n % 100 >= 11 && n % 100 <= 15) {
             System.out.println(n + "рублей");
         }
+        in.close();
     }
-}
+}*/

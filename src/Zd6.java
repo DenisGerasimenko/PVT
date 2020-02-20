@@ -1,3 +1,4 @@
+/*
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.util.Scanner;
@@ -43,7 +44,9 @@ public class Zd6 {
             System.out.println(d + "декабря" + y + "года");
         } else {
             System.out.println("такой даты не существует");
+            in.close();
         }
     }
 
 }
+*/
