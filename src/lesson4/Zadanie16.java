@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Zadanie16 {
     public static void main(String[] args) {
         int mas[] = new int[9];
