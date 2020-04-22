@@ -1,5 +1,7 @@
 package lesson10;
 
+import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
@@ -9,7 +11,7 @@ public class Task29 {
         HashMap<String, Integer> dictionary = new HashMap<String, Integer>();
         int currentChar;
         String currentWord = "";
-        InputStreamReader is = new InputStreamReader(System.in);
+        InputStreamReader is = new InputStreamReader(new FileInputStream("D:\\Стих.txt"));
         while ((currentChar = is.read()) !=-1)  {
 
             if (Character.isLetter(currentChar)) {

@@ -3,6 +3,7 @@ package lesson15;
 import java.io.*;
 
 class Book implements Serializable {
+
     private String author;
     private String name;
 

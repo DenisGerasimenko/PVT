@@ -3,7 +3,7 @@ package lesson11;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Тask28 {
+class Тask28 {
     public static void main(String[] args) {
         ArrayList<Integer> a = new ArrayList<>();
         int studentsNumber = 25;
