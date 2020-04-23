@@ -9,12 +9,12 @@ public class Task30 {
 
     public static void main(String[] args) throws java.lang.Exception {
         String currentWord = "";
-        InputStreamReader is = new InputStreamReader(new FileInputStream("file.txt"));
+        InputStreamReader is = new InputStreamReader(new FileInputStream("D:\\Стих.txt"));
 
         int currentChar;
         int numberWords = 0, numberPunct = 0;
 
-        while ((currentChar = is.read()) != (int) '\n') {
+        while ((currentChar = is.read()) != -1) {
 
             if (Character.isLetter(currentChar)) {
 
@@ -44,4 +44,3 @@ public class Task30 {
 
     }
 }
-
